@@ -35,7 +35,7 @@ jobs:
         uses: easingthemes/ssh-deploy@v2.1.1
         env:
           # 私钥
-          SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+          # SSH_PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
           # scp参数
           ARGS: "-avzr --delete"
           # 源目录
@@ -44,5 +44,7 @@ jobs:
           REMOTE_HOST: "101.34.55.99"
           # 用户
           REMOTE_USER: "root"
+          # 密码
+          password: ${{ secrets.PASSWORD }}
           # 目标地址
           TARGET: "/root/jingshan"
