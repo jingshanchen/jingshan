@@ -1,5 +1,5 @@
 <template>
-    <div>这是第一步</div>
+    <div>这是第二步</div>
 </template>
 
 <script>
