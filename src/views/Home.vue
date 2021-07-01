@@ -1,5 +1,5 @@
 <template>
-    <div>这是第三步，测试jenkins最后一步</div>
+    <div>哈哈哈，成功了</div>
 </template>
 
 <script>
